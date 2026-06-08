@@ -1,0 +1,62 @@
+<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="520" fill="#07111F"/>
+  <path d="M0 0 L0 520" stroke="#1E3A5F" stroke-opacity="0.35" stroke-width="1"/>
+  <path d="M80 0 L80 520" stroke="#1E3A5F" stroke-opacity="0.35" stroke-width="1"/>
+  <path d="M160 0 L160 520" stroke="#1E3A5F" stroke-opacity="0.35" stroke-width="1"/>
+  <path d="M240 0 L240 520" stroke="#1E3A5F" stroke-opacity="0.35" stroke-width="1"/>
+  <path d="M320 0 L320 520" stroke="#1E3A5F" stroke-opacity="0.35" stroke-width="1"/>
+  <path d="M400 0 L400 520" stroke="#1E3A5F" stroke-opacity="0.35" stroke-width="1"/>
+  <path d="M480 0 L480 520" stroke="#1E3A5F" stroke-opacity="0.35" stroke-width="1"/>
+  <path d="M560 0 L560 520" stroke="#1E3A5F" stroke-opacity="0.35" stroke-width="1"/>
+  <path d="M640 0 L640 520" stroke="#1E3A5F" stroke-opacity="0.35" stroke-width="1"/>
+  <path d="M720 0 L720 520" stroke="#1E3A5F" stroke-opacity="0.35" stroke-width="1"/>
+  <path d="M800 0 L800 520" stroke="#1E3A5F" stroke-opacity="0.35" stroke-width="1"/>
+  <path d="M880 0 L880 520" stroke="#1E3A5F" stroke-opacity="0.35" stroke-width="1"/>
+  <path d="M960 0 L960 520" stroke="#1E3A5F" stroke-opacity="0.35" stroke-width="1"/>
+  <path d="M1040 0 L1040 520" stroke="#1E3A5F" stroke-opacity="0.35" stroke-width="1"/>
+  <path d="M1120 0 L1120 520" stroke="#1E3A5F" stroke-opacity="0.35" stroke-width="1"/>
+  <path d="M1200 0 L1200 520" stroke="#1E3A5F" stroke-opacity="0.35" stroke-width="1"/>
+  <path d="M1280 0 L1280 520" stroke="#1E3A5F" stroke-opacity="0.35" stroke-width="1"/>
+  <path d="M1360 0 L1360 520" stroke="#1E3A5F" stroke-opacity="0.35" stroke-width="1"/>
+  <path d="M1440 0 L1440 520" stroke="#1E3A5F" stroke-opacity="0.35" stroke-width="1"/>
+  <path d="M1520 0 L1520 520" stroke="#1E3A5F" stroke-opacity="0.35" stroke-width="1"/>
+  <path d="M1600 0 L1600 520" stroke="#1E3A5F" stroke-opacity="0.35" stroke-width="1"/>
+  <path d="M0 0 L1600 0" stroke="#1E3A5F" stroke-opacity="0.35" stroke-width="1"/>
+  <path d="M0 80 L1600 80" stroke="#1E3A5F" stroke-opacity="0.35" stroke-width="1"/>
+  <path d="M0 160 L1600 160" stroke="#1E3A5F" stroke-opacity="0.35" stroke-width="1"/>
+  <path d="M0 240 L1600 240" stroke="#1E3A5F" stroke-opacity="0.35" stroke-width="1"/>
+  <path d="M0 320 L1600 320" stroke="#1E3A5F" stroke-opacity="0.35" stroke-width="1"/>
+  <path d="M0 400 L1600 400" stroke="#1E3A5F" stroke-opacity="0.35" stroke-width="1"/>
+  <path d="M0 480 L1600 480" stroke="#1E3A5F" stroke-opacity="0.35" stroke-width="1"/>
+  <path d="M1080 120 L1240 120" stroke="#35D3FF" stroke-opacity="0.55" stroke-width="7" stroke-linecap="round"/>
+  <path d="M1240 120 L1360 220" stroke="#35D3FF" stroke-opacity="0.55" stroke-width="7" stroke-linecap="round"/>
+  <path d="M1360 220 L1220 340" stroke="#35D3FF" stroke-opacity="0.55" stroke-width="7" stroke-linecap="round"/>
+  <path d="M1220 340 L1040 300" stroke="#35D3FF" stroke-opacity="0.55" stroke-width="7" stroke-linecap="round"/>
+  <path d="M1040 300 L930 210" stroke="#35D3FF" stroke-opacity="0.55" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="1080" cy="120" r="22" fill="#FFFFFF" stroke="#35D3FF" stroke-width="7"/>
+  <circle cx="1240" cy="120" r="22" fill="#FFFFFF" stroke="#35D3FF" stroke-width="7"/>
+  <circle cx="1360" cy="220" r="22" fill="#FFFFFF" stroke="#35D3FF" stroke-width="7"/>
+  <circle cx="1220" cy="340" r="22" fill="#FFFFFF" stroke="#35D3FF" stroke-width="7"/>
+  <circle cx="1040" cy="300" r="22" fill="#FFFFFF" stroke="#35D3FF" stroke-width="7"/>
+  <circle cx="930" cy="210" r="22" fill="#FFFFFF" stroke="#35D3FF" stroke-width="7"/>
+  <g transform="translate(95 85) scale(0.58)">
+
+  <path d="M156 142 L156 276" stroke="#35D3FF" stroke-width="24" stroke-linecap="round"/>
+  <path d="M356 142 L356 276" stroke="#35D3FF" stroke-width="24" stroke-linecap="round"/>
+  <path d="M156 276 L256 372" stroke="#35D3FF" stroke-width="24" stroke-linecap="round"/>
+  <path d="M356 276 L256 372" stroke="#35D3FF" stroke-width="24" stroke-linecap="round"/>
+  <path d="M156 142 L356 142" stroke="#35D3FF" stroke-width="24" stroke-linecap="round"/>
+  <path d="M256 238 L256 372" stroke="#35D3FF" stroke-opacity="0.45" stroke-width="10" stroke-linecap="round" stroke-dasharray="2 28"/>
+  <circle cx="156" cy="142" r="34" fill="#FFFFFF" stroke="#35D3FF" stroke-width="10"/>
+  <circle cx="356" cy="142" r="34" fill="#FFFFFF" stroke="#35D3FF" stroke-width="10"/>
+  <circle cx="156" cy="276" r="34" fill="#FFFFFF" stroke="#35D3FF" stroke-width="10"/>
+  <circle cx="356" cy="276" r="34" fill="#FFFFFF" stroke="#35D3FF" stroke-width="10"/>
+  <circle cx="256" cy="372" r="34" fill="#FFFFFF" stroke="#35D3FF" stroke-width="10"/>
+  <circle cx="256" cy="238" r="27" fill="#35D3FF" stroke="#35D3FF" stroke-width="10"/>
+  <circle cx="256" cy="238" r="10" fill="#07111F" fill-opacity="0.8"/>
+
+  </g>
+  <text x="420" y="190" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="88" font-weight="850" letter-spacing="-2">UAG-Labs</text>
+  <text x="425" y="265" fill="#A5F3FC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="600">Universal Architecture Graphs</text>
+  <text x="425" y="325" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28">The graph is the truth. Diagrams are views. Exports are projections.</text>
+</svg>
