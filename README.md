@@ -54,15 +54,25 @@ The compiler processes all five layers. Layer 5 (Holes) is the honest acknowledg
 
 Every compilation target is backed by a Rust adapter. The adapter defines how a graph primitive compiles on a specific platform.
 
+The adapter system is designed to grow over time. Each new adapter extends the platform reach of the compiler without any changes to the graph or the policy engine interface.
+
+**Milestone 1 — Rust only:**
 ```text
-PostgresAdapter    → satisfies "persistent resource" via SQLx
-AxumAdapter        → satisfies "HTTP capability" via route emit
-KafkaAdapter       → satisfies "event stream" via rdkafka
-ReactAdapter       → satisfies "UI capability" via component emit
-TerraformAdapter   → satisfies "cloud resource" via HCL emit
+RustAdapter    → all graph primitives compile to idiomatic Rust
+               → structs, traits, impl blocks, async/await, type-system constraint enforcement
 ```
 
-Rust is the single compilation substrate. All targets compile through Rust or through Rust-driven codegen. When a platform gap exists, a new adapter is built and registered — the graph ecosystem gains that target without any graph changes.
+**Planned adapters (future milestones):**
+```text
+PostgresAdapter    → persistent resource via SQLx
+AxumAdapter        → HTTP capability via Axum route emit
+KafkaAdapter       → event stream via rdkafka
+ReactAdapter       → UI capability via React component emit
+TerraformAdapter   → cloud resource via HCL emit
+GHActionsAdapter   → CI/CD pipeline via GitHub Actions YAML emit
+```
+
+Rust is the single compilation substrate. All adapters emit Rust, or emit configuration/DSL files driven by Rust tooling. When a platform gap exists, a new adapter is built in Rust and registered — the graph ecosystem gains that target without any graph changes.
 
 ## Module Structure
 

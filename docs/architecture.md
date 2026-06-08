@@ -66,16 +66,28 @@ Emitters are independent. Adding a new language target means adding a new direct
 
 ## Adapter System (`src/adapters/`)
 
-Every graph primitive that requires platform-specific implementation is satisfied by an adapter. Adapters are registered in the policy file and resolved at compile time.
+Every graph primitive that requires platform-specific implementation is satisfied by an adapter. Adapters are registered in the policy file and resolved at compile time. The adapter system is designed to grow — each new adapter extends platform reach without any changes to the graph, policy interface, or compiler pipeline.
 
+**Milestone 1 — Rust adapter only:**
 ```text
-Core adapters (first milestone):
-  PostgresAdapter   — persistent resource via SQLx
-  AxumAdapter       — HTTP capability via Axum route emit
-  KafkaAdapter      — event stream via rdkafka
-  ReactAdapter      — UI capability via React component emit
-  TerraformAdapter  — cloud resource via HCL emit
-  GHActionsAdapter  — CI/CD pipeline via GitHub Actions YAML emit
+RustAdapter   — all graph primitives → idiomatic Rust
+                structs, traits, impl blocks, async/await
+                type-system enforcement for constraint nodes
+                typed transition tables for state machines
+                typed boolean expressions for predicates
+                typed resource operation descriptors for effects
+```
+
+The first compiler milestone compiles entirely to Rust. No other platform adapters are implemented until the Rust adapter is complete and producing `cargo build`-passing output.
+
+**Planned adapters (future milestones):**
+```text
+PostgresAdapter   — persistent resource via SQLx
+AxumAdapter       — HTTP capability via Axum route emit
+KafkaAdapter      — event stream via rdkafka
+ReactAdapter      — UI capability via React component emit
+TerraformAdapter  — cloud resource via HCL emit
+GHActionsAdapter  — CI/CD pipeline via GitHub Actions YAML emit
 ```
 
 Rust is the single compilation substrate. All adapters emit Rust, or emit configuration/DSL files driven by Rust tooling. When a platform gap exists — no adapter covers a required primitive — it is a compilation error that names the missing capability. The resolution is to build the adapter in Rust and register it.
