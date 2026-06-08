@@ -1,0 +1,3 @@
+[workspace]
+members = ["crates/uag-compiler", "crates/uag-cli"]
+resolver = "2"
